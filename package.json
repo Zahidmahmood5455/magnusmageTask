@@ -1,0 +1,19 @@
+{
+  "name": "magnustask",
+  "version": "1.0.0",
+  "description": "Evaluation task",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "zahid",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "nodemailer": "^6.6.1",
+    "validator": "^13.5.2"
+  }
+}
